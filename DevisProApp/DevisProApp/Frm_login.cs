@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace DevisProApp
 {
-    public partial class Form1 : Form
+    public partial class Frm_login : Form
     {
-        public Form1()
+        public Frm_login()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
         }
     }
 }
