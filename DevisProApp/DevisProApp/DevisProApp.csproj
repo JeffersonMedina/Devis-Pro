@@ -73,6 +73,7 @@
     <Compile Include="Frm_login.Designer.cs">
       <DependentUpon>Frm_login.cs</DependentUpon>
     </Compile>
+    <Compile Include="mysql\conexion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_login.resx">

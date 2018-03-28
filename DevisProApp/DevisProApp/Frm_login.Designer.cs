@@ -43,6 +43,7 @@
             this.btn_login.TabIndex = 0;
             this.btn_login.Text = "Login";
             this.btn_login.UseVisualStyleBackColor = true;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // txt_usuario
             // 
@@ -68,7 +69,7 @@
             this.lbl_salir.Size = new System.Drawing.Size(14, 13);
             this.lbl_salir.TabIndex = 3;
             this.lbl_salir.Text = "X";
-            this.lbl_salir.Click += new System.EventHandler(this.label1_Click);
+            this.lbl_salir.MouseHover += new System.EventHandler(this.lbl_salir_MouseHover);
             // 
             // Frm_login
             // 
